@@ -3,7 +3,14 @@ golang cross compiler, support windows/linux/darwin/mips/arm, with goreleaser, s
 
 
 ## Versions
-
+### v1.0
+| Package     | Version         |
+| ----------- | -----------     |
+| OS Version  | Debian bullseye |
+| goreleaser  | 1.8.3           |
+| golang      | 1.18.2-0        |
+| osx-sdk     | 11.1            |
+| gcc         | 10              |
 ### v0.1
 | Package     | Version         |
 | ----------- | -----------     |
