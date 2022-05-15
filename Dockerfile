@@ -1,6 +1,4 @@
-#FROM dockercore/golang-cross
-#FROM ghcr.io/gythialy/golang-cross:v1.17.9-0
-FROM ghcr.io/gythialy/golang-cross
+FROM ghcr.io/gythialy/golang-cross:v1.17.9-0
 
 # flex bison 用于编译mips的pcap
 RUN apt-get update && \
