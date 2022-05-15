@@ -34,3 +34,6 @@ Go build:
 ```
 docker run -it --rm -v $GOPATH:/go -w /go/src/github.com/org/repo lubyruffy/gocross "go build"
 ```
+
+## Some tips
+ - If you want to use libpcap link static, such as go build with ldflags like '-extldflags "-static"', then you'd better use system inner apt libpcap-dev directly, because there are many issues of dbus-1/systemd when manually compile.
