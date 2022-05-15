@@ -3,6 +3,9 @@ golang cross compiler, support windows/linux/darwin/mips/arm, with goreleaser, s
 
 
 ## Versions
+
+If not necessary, latest version doesn't mean it's good for you. You should conside stability, compatibility and image size.
+
 ### v1.0
 | Package     | Version         |
 | ----------- | -----------     |
