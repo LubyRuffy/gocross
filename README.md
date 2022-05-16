@@ -33,9 +33,9 @@ Goreleaser:
 docker run -it --rm -v $GOPATH:/go -w /go/src/github.com/org/repo/<dir of .goreleaser.yaml> lubyruffy/gocross "goreleaser build --snapshot --rm-dist"
 ```
 
-Go build:
+Go build in Windows:
 ```
-docker run -it --rm -v $GOPATH:/go -w /go/src/github.com/org/repo lubyruffy/gocross "go build"
+docker run -it --rm -v $env:GOPATH\:/go -w /go/src/github.com/org/repo lubyruffy/gocross "go build"
 ```
 
 ## Some tips
